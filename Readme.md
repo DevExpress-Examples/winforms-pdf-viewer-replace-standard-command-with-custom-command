@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [CustomNextPageCommand.cs](./CS/ViewerCustomCommand/CustomNextPageCommand.cs) (VB: [CustomNextPageCommand.vb](./VB/ViewerCustomCommand/CustomNextPageCommand.vb))
+* [CustomPdfViewerCommandFactoryService.cs](./CS/ViewerCustomCommand/CustomPdfViewerCommandFactoryService.cs) (VB: [CustomPdfViewerCommandFactoryService.vb](./VB/ViewerCustomCommand/CustomPdfViewerCommandFactoryService.vb))
+* [Form1.cs](./CS/ViewerCustomCommand/Form1.cs) (VB: [Form1.vb](./VB/ViewerCustomCommand/Form1.vb))
+* [Program.cs](./CS/ViewerCustomCommand/Program.cs) (VB: [Program.vb](./VB/ViewerCustomCommand/Program.vb))
+<!-- default file list end -->
 # How to replace standard PDF Viewer control command with your own custom command
 
 
