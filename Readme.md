@@ -14,7 +14,7 @@
 # How to replace standard PDF Viewer control command with your own custom command
 
 
-This example shows how to modify the functionality of an existing PDF Viewer command.<br><br>The PDF Viewer exposes the <strong>IPdfViewerCommandFactoryService</strong> interface that enables you to substitute the default command with your own custom command.<br><br>
+This example shows how to modify the functionality of an existing PDF Viewer command.<br><br>The [WinForms PDF Viewer](https://www.devexpress.com/products/net/controls/winforms/pdf-viewer/) exposes the <strong>IPdfViewerCommandFactoryService</strong> interface that enables you to substitute the default command with your own custom command.<br><br>
 
 
 <h3>Description</h3>
