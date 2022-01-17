@@ -1,9 +1,9 @@
-﻿Imports DevExpress.XtraPdfViewer
+Imports DevExpress.XtraPdfViewer
 Imports DevExpress.XtraPdfViewer.Commands
 Imports System.Windows.Forms
 
-
 Namespace ViewerCustomCommand
+
     Public Class CustomNextPageCommand
         Inherits PdfNextPageCommand
 

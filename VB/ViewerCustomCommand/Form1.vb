@@ -1,18 +1,16 @@
-﻿Imports DevExpress.XtraPdfViewer
-Imports System
+Imports DevExpress.XtraPdfViewer
 Imports System.Windows.Forms
 
 Namespace ViewerCustomCommand
-    Partial Public Class Form1
+
+    Public Partial Class Form1
         Inherits Form
 
         Private Sub ReplacePdfViewerCommandFactoryService(ByVal control As PdfViewer)
             Dim service As IPdfViewerCommandFactoryService = control.GetService(Of IPdfViewerCommandFactoryService)()
-            If service Is Nothing Then
-                Return
-            End If
+            If service Is Nothing Then Return
             control.RemoveService(GetType(IPdfViewerCommandFactoryService))
-            control.AddService(GetType(IPdfViewerCommandFactoryService), New CustomPdfViewerCommandFactoryService(control,service))
+            control.AddService(GetType(IPdfViewerCommandFactoryService), New CustomPdfViewerCommandFactoryService(control, service))
         End Sub
 
         Public Sub New()
