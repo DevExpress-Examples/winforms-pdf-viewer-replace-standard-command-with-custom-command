@@ -27,7 +27,7 @@ Create a class (e.g., <strong>CustomPdfViewerCommandFactoryService</strong>) imp
 
 * [How to: Replace Standard PDF Viewer Control Command with your own Custom Command](https://docs.devexpress.com/WindowsForms/115299/controls-and-libraries/pdf-viewer/examples/customization/how-to-replace-standard-pdf-viewer-control-command-with-your-own-custom-command)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-pdf-viewer-replace-standard-command-with-custom-command&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-pdf-viewer-replace-standard-command-with-custom-command&~~~was_helpful=no)
 
